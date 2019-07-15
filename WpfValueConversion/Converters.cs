@@ -50,6 +50,7 @@ namespace WpfValueConversion
         }
     }
 
+    // Convert string to a color
     public class ColorConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
@@ -80,6 +81,7 @@ namespace WpfValueConversion
         }
     }
 
+    // Convert string to an image
     public class ImageConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
